@@ -1,0 +1,37 @@
+.wrapper {
+  max-width: 960px;
+}
+.header {
+  background-color: grey;
+  height: 150px;
+  position: relative;
+}
+
+.myName {
+  background-color: #4aaaa5;
+  height: 80px;
+  width: 20%;
+  position: absolute;
+  bottom: 0;
+}
+.links {
+  background-color: chartreuse;
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+}
+.actualBody {
+  background-color: aqua;
+  position: relative;
+  height: 200px;
+}
+.pagebodyHeader {
+  background-color: purple;
+  float: none;
+}
+.image {
+  background-color: blue;
+  position: absolute;
+  width: 200px;
+  height: auto;
+}
