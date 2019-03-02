@@ -2,9 +2,11 @@
   max-width: 960px;
 }
 .header {
-  background-color: grey;
+  background-color: #ffffff;
   height: 150px;
   position: relative;
+  border-color: #cccccc;
+  font-family: "Georgia", Times, Times New Roman, serif;
 }
 
 .myName {
@@ -24,6 +26,7 @@
   background-color: aqua;
   position: relative;
   height: 200px;
+  padding-left: 200px;
 }
 .pagebodyHeader {
   background-color: purple;
@@ -34,4 +37,54 @@
   position: absolute;
   width: 200px;
   height: auto;
+  float: left;
+  width: 170px;
+  height: 170px;
+}
+.aboutMe {
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
+.p {
+  text: #777777;
+}
+hr {
+}
+.p1 {
+  margin-left: 200px;
+}
+.mainBody {
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
+
+.footer1 {
+  background-color: #4aaaa5;
+  width: 960px;
+  height: 10px;
+}
+.footer2 {
+  background-color: #666666;
+  width: 960px;
+  height: 40px;
+}
+.firstRow {
+  height: 150px;
+  position: relative;
+  border-color: #cccccc;
+}
+.image1 {
+  height: 40px;
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.image2 {
+  height: 40px;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  padding-left: 40px;
+  padding-right: 40px;
 }
