@@ -1,5 +1,7 @@
 .wrapper {
   max-width: 960px;
+  background: lightgray;
+  padding-left: 10%;
 }
 .header {
   background-color: #ffffff;
@@ -8,32 +10,43 @@
   border-color: #cccccc;
   font-family: "Georgia", Times, Times New Roman, serif;
 }
-
+.content {
+  background: white;
+}
+.page {
+  padding-top: 40px;
+}
+h2 {
+  color: lightseagreen;
+}
+.pname {
+  color: white;
+}
 .myName {
   background-color: #4aaaa5;
   height: 80px;
-  width: 20%;
+  width: 40%;
   position: absolute;
   bottom: 0;
+  font-size: 40px;
+  padding-bottom: 40px;
+  padding-left: 30px;
 }
 .links {
-  background-color: chartreuse;
+  color: gray;
   position: absolute;
   bottom: 20%;
-  right: 0;
+  right: 20px;
 }
 .actualBody {
-  background-color: aqua;
   position: relative;
   height: 200px;
   padding-left: 200px;
 }
 .pagebodyHeader {
-  background-color: purple;
   float: none;
 }
 .image {
-  background-color: blue;
   position: absolute;
   width: 200px;
   height: auto;
@@ -54,7 +67,10 @@ hr {
 }
 .mainBody {
   background-color: #ffffff;
-  border-color: #dddddd;
+  border-color: #464141;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 40px;
 }
 
 .footer1 {
@@ -63,28 +79,29 @@ hr {
   height: 10px;
 }
 .footer2 {
-  background-color: #666666;
+  background-color: grey;
   width: 960px;
-  height: 40px;
+  height: 30px;
 }
-.firstRow {
-  height: 150px;
-  position: relative;
-  border-color: #cccccc;
+
+.portfolioimages {
+  float: left;
+  width: 200px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  height: 200px;
 }
-.image1 {
-  height: 40px;
-  width: 40%;
-  position: absolute;
-  bottom: 0;
-  padding-left: 40px;
-  padding-right: 40px;
+.blankcel {
+  float: left;
+  width: 200px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  height: 200px;
 }
-.image2 {
-  height: 40px;
-  width: 80%;
-  position: absolute;
-  bottom: 0;
-  padding-left: 40px;
-  padding-right: 40px;
+.button {
+  color: white;
+  background-color: #4aaaa5;
+  font-size: 20px;
 }
