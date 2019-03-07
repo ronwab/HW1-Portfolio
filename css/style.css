@@ -3,6 +3,12 @@
   background: lightgray;
   padding-left: 10%;
 }
+
+.imgContainer{
+  float:left;
+}
+
+
 .header {
   background-color: #ffffff;
   height: 150px;
