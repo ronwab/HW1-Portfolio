@@ -2,6 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ron Wabukenda</title>
 
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
@@ -15,10 +16,10 @@
           <p class="pname">Ronald wabukenda</p>
         </div>
         <div class="links">
-          <a href="/index.html"> About </a>|<a href="/portfolio.html">
+          <a href="./index.html"> About </a>|<a href="./portfolio.html">
             Portfolio
           </a>
-          | <a href="/contact.html"> Contact </a>
+          | <a href="./contact.html"> Contact </a>
         </div>
       </div>
       <div class="page">
@@ -29,22 +30,24 @@
               </div>
               Name:<br />
               <input
+              class="contactFields"
                 type="text"
                 name="lastname"
                 value="Please enter Name"
-                style=" height:30px;width:860px"
               />
               <br />
               Email:<br />
-              <br />
               <input
+              class= "contactFields"
                 type="text"
                 name="lastname"
                 value="Please enter your email"
-                style="height:30px;width:860px"
+               
               /><br />
-              <br /><br />
-              <textarea name="message" style="width:860px; height:300px;"> </textarea>
+              Message:
+              <br />
+              
+              <textarea class="contactTextArea "name="message"> </textarea>
               <br />
               <br />
               <button class="button">Submit</button>
