@@ -19,6 +19,9 @@
 h2 {
   color: lightseagreen;
 }
+h3 {
+  color: lightseagreen;
+}
 .pname {
   color: white;
 }
@@ -57,8 +60,10 @@ h2 {
 .aboutMe {
   font-family: "Georgia", Times, Times New Roman, serif;
 }
-.p {
+.ptext {
   text: #777777;
+  font-size: 20px;
+  line-height: 30px;
 }
 hr {
 }
@@ -75,21 +80,22 @@ hr {
 
 .footer1 {
   background-color: #4aaaa5;
-  width: 960px;
+
   height: 10px;
 }
 .footer2 {
   background-color: grey;
-  width: 960px;
+
   height: 30px;
 }
 
 .portfolioimages {
   float: left;
-  width: 200px;
+  width: 300px;
+  height: 300px;
   padding-left: 20px;
   padding-bottom: 40px;
-  padding-top: 20px;
+  padding-right: 20px;
 }
 .blankcel {
   float: left;
@@ -103,4 +109,5 @@ hr {
   color: white;
   background-color: #4aaaa5;
   font-size: 20px;
+  margin-bottom: 12px;
 }
